@@ -95,6 +95,43 @@ footer{text-align:center;color:var(--muted);padding:20px 16px 8px;font-size:13px
 ul{margin:6px 0 6px 18px;padding:0}li{margin:5px 0}
 .big{font-size:18px;font-weight:800}
 .bottomnav{display:none}
+
+/* ---------- Mobile-first refinements ---------- */
+img,svg,video{max-width:100%;height:auto}
+@media (max-width:640px){
+  body{font-size:16px}
+  main{padding:10px 8px 36px}
+  section{padding:18px 14px;margin:12px 0}
+  h2{font-size:22px}
+  .jp-sub{display:inline-block;margin-left:6px;font-size:12.5px}
+  header.hero{padding:26px 12px 20px}
+  header.hero .jp-title{letter-spacing:.22em;font-size:13px}
+  header.hero h1{font-size:29px}
+  .cd b{font-size:23px}
+  .countdown{gap:6px}
+  .topnav{padding:8px 6px;gap:5px}
+  .topnav a{font-size:13px;padding:9px 9px}
+  .filters{gap:6px}
+  .filters button{padding:10px 14px;font-size:14.5px;min-height:48px}
+  .day summary{padding:14px 12px}
+  .day h4{font-size:16.5px}
+  .day .body{padding:0 12px 14px}
+  .copyrow{padding:12px}
+  .status-btn,.transit-btn{display:block;text-align:center;margin:6px 0}
+  .tabs button{min-width:0;font-size:14px;padding:11px 6px}
+  th,td{padding:8px 6px;font-size:14px}
+  .wx{grid-template-columns:1fr}
+}
+@media (max-width:420px){
+  .todo{flex-wrap:wrap}
+  .todo .due{width:100%;text-align:left;padding-left:40px}
+  .quickactions{gap:8px}
+  .quickactions a{font-size:14.5px;padding:13px 6px}
+  .jp{font-size:18px}
+}
+@media (min-width:641px){
+  .status-btn,.transit-btn{display:inline-block}
+}
 </style>
 </head>
 <body>
