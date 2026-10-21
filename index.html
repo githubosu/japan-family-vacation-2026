@@ -6,72 +6,87 @@
 <title>Japan Family Vacation 2026 — Nov 5–24</title>
 <meta name="description" content="Family trip to Japan: Tokyo, Kyoto, Osaka and Mt. Fuji — November 5–24, 2026. Countdown, deadlines, day-by-day plan, bookings, food, transport, packing and budget.">
 <style>
-:root{--ink:#1c2321;--muted:#5d6862;--bg:#f6f3ec;--card:#fff;--accent:#b3352b;--accent2:#1f5c4a;--line:#e6dfd1;--gold:#c98a1b;--radius:16px}
+:root{--ink:#1c2321;--muted:#5d6862;--bg:#f4f1ea;--card:#fff;--accent:#b3352b;--accent2:#1f5c4a;--line:#e6dfd1;--gold:#c98a1b;--radius:18px}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{scroll-behavior:smooth}
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;font-size:16px}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:17px;padding-bottom:92px}
 a{color:var(--accent2);font-weight:600}
-header.hero{background:linear-gradient(135deg,#7c1f16,#b3352b 55%,#d1602f);color:#fff;padding:34px 20px 26px;text-align:center}
-header.hero h1{margin:0 0 4px;font-size:clamp(27px,6vw,42px);letter-spacing:-.02em}
-header.hero p{margin:3px 0;opacity:.92}
-.countdown{display:flex;justify-content:center;gap:8px;margin:18px auto 6px;max-width:440px}
-.cd{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);border-radius:12px;padding:8px 0;width:76px}
-.cd b{display:block;font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
-.cd span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;opacity:.85}
-.cd-label{font-size:13px;opacity:.85}
-#deadline-banner{background:#8f1d12;color:#fff;padding:12px 18px;text-align:center;font-weight:700;font-size:16px;position:sticky;top:0;z-index:50;box-shadow:0 2px 8px rgba(0,0,0,.25)}
-#deadline-banner small{display:block;font-weight:500;opacity:.9;font-size:13px}
-main{max-width:920px;margin:0 auto;padding:14px 14px 60px}
-section{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin:14px 0}
-h2{margin:0 0 4px;font-size:22px}
-h3{margin:18px 0 4px;font-size:17px;color:var(--accent2)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+header.hero{background:linear-gradient(135deg,#7c1f16,#b3352b 55%,#d1602f);color:#fff;padding:28px 18px 22px;text-align:center}
+header.hero h1{margin:0 0 4px;font-size:clamp(26px,6vw,40px);letter-spacing:-.02em}
+header.hero p{margin:3px 0;opacity:.94}
+.countdown{display:flex;justify-content:center;gap:8px;margin:16px auto 6px;max-width:440px}
+.cd{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.35);border-radius:12px;padding:8px 0;flex:1;max-width:96px}
+.cd b{display:block;font-size:27px;line-height:1;font-variant-numeric:tabular-nums}
+.cd span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;opacity:.88}
+.cd-label{font-size:13px;opacity:.88}
+#deadline-banner{background:#8f1d12;color:#fff;padding:12px 16px;text-align:center;font-weight:700;font-size:16px;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+#deadline-banner small{display:block;font-weight:500;opacity:.92;font-size:13px}
+main{max-width:920px;margin:0 auto;padding:12px 12px 30px}
+.quickactions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:6px 0 4px}
+.quickactions a{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:15px 10px;font-size:16px;font-weight:800;color:var(--ink);text-decoration:none;min-height:56px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.quickactions a:active{transform:scale(.98)}
+@media(min-width:700px){.quickactions{grid-template-columns:repeat(4,1fr)}}
+section{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 18px;margin:14px 0;scroll-margin-top:86px;box-shadow:0 1px 5px rgba(0,0,0,.04)}
+h2{margin:0 0 4px;font-size:23px}
+h3{margin:18px 0 4px;font-size:18px;color:var(--accent2)}
 .sub{color:var(--muted);margin:0 0 10px;font-size:14px}
-.todo{display:flex;gap:12px;align-items:flex-start;padding:12px 10px;border-bottom:1px solid var(--line);border-radius:10px}
-.todo:last-child{border-bottom:none}
-.todo input{width:26px;height:26px;flex:0 0 auto;margin-top:2px;accent-color:var(--accent2)}
+.progresswrap{margin:10px 0 6px}
+.progress{height:12px;background:#eee7d8;border-radius:999px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--accent2);width:0;transition:width .3s}
+.todo{display:flex;gap:12px;align-items:flex-start;padding:14px 12px;margin:8px 0;background:#fbf9f4;border:1px solid var(--line);border-radius:14px;cursor:pointer}
+.todo input{width:30px;height:30px;flex:0 0 auto;margin-top:2px;accent-color:var(--accent2)}
 .todo .t{flex:1}
-.todo .t b{font-size:16px}
+.todo .t b{font-size:16.5px}
 .todo .due{font-size:13px;font-weight:700;color:var(--accent);white-space:nowrap;text-align:right}
-.todo .due small{display:block;color:var(--muted);font-weight:500}
 .todo.done .t{opacity:.5;text-decoration:line-through}
-.badge{display:inline-block;background:#fdeceb;color:var(--accent);border-radius:999px;padding:0 9px;font-size:12px;font-weight:700;margin-left:6px;vertical-align:2px}
+.badge{display:inline-block;background:#fdeceb;color:var(--accent);border-radius:999px;padding:1px 9px;font-size:12px;font-weight:700;margin-left:6px;vertical-align:2px}
 .badge.ok{background:#e9f4ef;color:var(--accent2)}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px}
-.filters button,.today-btn{border:1.5px solid var(--accent2);background:#fff;color:var(--accent2);border-radius:999px;padding:9px 16px;font-size:15px;font-weight:700;cursor:pointer;min-height:44px}
+.filters button,.today-btn{border:1.5px solid var(--accent2);background:#fff;color:var(--accent2);border-radius:999px;padding:11px 18px;font-size:15.5px;font-weight:700;cursor:pointer;min-height:50px}
 .filters button.on{background:var(--accent2);color:#fff}
-.today-btn{background:var(--gold);border-color:var(--gold);color:#fff;margin:10px 0}
-.day{border:1px solid var(--line);border-radius:14px;margin:10px 0;overflow:hidden}
-.day summary{list-style:none;cursor:pointer;padding:14px 16px;display:block;min-height:48px}
+.today-btn{background:var(--gold);border-color:var(--gold);color:#fff;margin:10px 0;width:100%;font-size:17px}
+@media(min-width:700px){.today-btn{width:auto}}
+.day{border:1px solid var(--line);border-radius:14px;margin:10px 0;overflow:hidden;background:#fff}
+.day summary{list-style:none;cursor:pointer;padding:16px;min-height:56px;position:relative}
 .day summary::-webkit-details-marker{display:none}
 .day .d{font-size:12px;font-weight:800;color:var(--accent);text-transform:uppercase;letter-spacing:.06em}
-.day h4{display:inline;font-size:17px;margin:0 0 0 6px}
-.day .body{padding:0 16px 14px;color:#333}
+.day h4{display:inline;font-size:17.5px;margin:0 0 0 6px}
+.day .chev{position:absolute;right:16px;top:50%;transform:translateY(-50%);font-size:26px;color:var(--muted);transition:transform .2s}
+.day[open ] .chev{transform:translateY(-50%) rotate(90deg)}
+.day .body{padding:0 16px 16px;color:#333}
 .day .body p{margin:6px 0}
 .day.today{border:2.5px solid var(--gold);box-shadow:0 4px 14px rgba(201,138,27,.25)}
 .city{font-size:11px;font-weight:800;background:#eef4f1;color:var(--accent2);border-radius:999px;padding:2px 9px;text-transform:uppercase;letter-spacing:.05em}
-.copyrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:#faf7f0;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:10px 0}
-.copyrow .grow{flex:1;min-width:180px}
-.copybtn{background:var(--accent2);color:#fff;border:none;border-radius:10px;padding:12px 18px;font-size:15px;font-weight:700;cursor:pointer;min-height:48px}
+.copyrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap;background:#faf7f0;border:1px solid var(--line);border-radius:14px;padding:14px;margin:10px 0}
+.copyrow .grow{flex:1;min-width:200px}
+.copybtn{background:var(--accent2);color:#fff;border:none;border-radius:12px;padding:14px 22px;font-size:16px;font-weight:700;cursor:pointer;min-height:52px}
 .copybtn.copied{background:var(--gold)}
-.jp{font-size:19px;font-weight:700}
+@media(max-width:560px){.copyrow{flex-direction:column;align-items:stretch}.copybtn{width:100%}}
+.jp{font-size:20px;font-weight:700}
 table{width:100%;border-collapse:collapse;margin:8px 0;font-size:15px}
-th,td{text-align:left;padding:8px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th,td{text-align:left;padding:9px 8px;border-bottom:1px solid var(--line);vertical-align:top}
 th{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+@media(max-width:640px){table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}}
 .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
-.tabs button{flex:1;min-width:100px;border:1.5px solid var(--line);background:#faf7f0;border-radius:12px;padding:12px;font-size:15px;font-weight:700;cursor:pointer;min-height:48px}
+.tabs button{flex:1;min-width:104px;border:1.5px solid var(--line);background:#faf7f0;border-radius:12px;padding:13px;font-size:15.5px;font-weight:700;cursor:pointer;min-height:52px}
 .tabs button.on{background:var(--accent);border-color:var(--accent);color:#fff}
 .tabpane{display:none}.tabpane.on{display:block}
 .wx{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
 .wxcard{border:1px solid var(--line);border-radius:14px;padding:14px;background:#fbf9f4}
 .wxcard h4{margin:0 0 6px;font-size:17px}
-.wxday{display:flex;justify-content:space-between;font-size:14px;padding:3px 0;border-bottom:1px dotted var(--line)}
+.wxday{display:flex;justify-content:space-between;font-size:14.5px;padding:4px 0;border-bottom:1px dotted var(--line)}
 .wxday:last-child{border-bottom:none}
-.status-btn{display:inline-block;background:var(--accent);color:#fff;border-radius:10px;padding:10px 14px;text-decoration:none;font-size:14px;margin:4px 6px 4px 0}
-.transit-btn{display:inline-block;background:#fff;border:1.5px solid var(--accent2);color:var(--accent2);border-radius:10px;padding:9px 13px;text-decoration:none;font-size:14px;margin:4px 6px 4px 0}
-.note{background:#fdf3e7;border:1px solid #f0ddc2;border-radius:12px;padding:12px 16px;margin:12px 0;font-size:14px}
-footer{text-align:center;color:var(--muted);padding:20px;font-size:13px}
-ul{margin:6px 0 6px 18px;padding:0}li{margin:4px 0}
+.status-btn{display:inline-block;background:var(--accent);color:#fff;border-radius:12px;padding:13px 16px;text-decoration:none;font-size:15px;margin:4px 6px 4px 0;min-height:48px}
+.transit-btn{display:inline-block;background:#fff;border:1.5px solid var(--accent2);color:var(--accent2);border-radius:12px;padding:11px 14px;text-decoration:none;font-size:14.5px;margin:4px 6px 4px 0;min-height:46px}
+.note{background:#fdf3e7;border:1px solid #f0ddc2;border-radius:12px;padding:12px 16px;margin:12px 0;font-size:14.5px}
+footer{text-align:center;color:var(--muted);padding:20px 16px 8px;font-size:13px}
+ul{margin:6px 0 6px 18px;padding:0}li{margin:5px 0}
 .big{font-size:18px;font-weight:800}
+.bottomnav{position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(255,255,255,.97);border-top:1px solid var(--line);display:flex;max-width:920px;margin:0 auto;padding-bottom:env(safe-area-inset-bottom);box-shadow:0 -2px 12px rgba(0,0,0,.07)}
+.bottomnav a{flex:1;text-align:center;padding:9px 2px 10px;font-size:12px;font-weight:700;color:var(--ink);text-decoration:none;min-height:58px}
+.bottomnav a span{display:block;font-size:21px;line-height:1.25}
+.bottomnav a:active{background:#f3eee2}
 </style>
 </head>
 <body>
@@ -93,9 +108,17 @@ ul{margin:6px 0 6px 18px;padding:0}li{margin:4px 0}
 
 <main>
 
+<div class="quickactions">
+  <a href="#todos">⏰ Deadlines</a>
+  <a href="#days" id="qa-today">📍 Today</a>
+  <a href="#bookings">🚕 Taxi cards</a>
+  <a href="#weather">🌤️ Weather</a>
+</div>
+
 <section id="todos">
   <h2>✅ To-do — sorted by deadline</h2>
   <p class="sub">Most urgent first. Ticks are saved on this device only.</p>
+  <div class="progresswrap"><div class="progress"><i id="todo-progress-bar"></i></div><div class="sub" id="todo-progress-text" style="margin-top:6px"></div></div>
   <div id="todo-list"></div>
 </section>
 
@@ -216,6 +239,14 @@ ul{margin:6px 0 6px 18px;padding:0}li{margin:4px 0}
 </main>
 <footer>Japan Family Vacation 2026 · Nov 5–24 · Family view — booking codes and personal details are intentionally not shown on this public page.</footer>
 
+<nav class="bottomnav">
+  <a href="#todos"><span>✅</span>To-do</a>
+  <a href="#days"><span>🗓️</span>Days</a>
+  <a href="#bookings"><span>🎫</span>Bookings</a>
+  <a href="#weather"><span>🌤️</span>Weather</a>
+  <a href="#hub"><span>🍜</span>More</a>
+</nav>
+
 <script>
 "use strict";
 /* ---------- Countdown to takeoff: Thu Nov 5, 2026, 7:30 AM ET (EST, UTC-5) ---------- */
@@ -272,6 +303,11 @@ function renderTodos(){
     });
     list.appendChild(row);
   });
+  var doneCount = TODOS.filter(function(x){ return store[x.id]; }).length;
+  var bar = document.getElementById("todo-progress-bar");
+  if(bar) bar.style.width = Math.round(doneCount / TODOS.length * 100) + "%";
+  var pt = document.getElementById("todo-progress-text");
+  if(pt) pt.textContent = doneCount + " of " + TODOS.length + " done";
 }
 function renderBanner(){
   var now = Date.now();
@@ -329,7 +365,7 @@ function renderDays(filter){
     var label = dt.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"}).toUpperCase();
     el.innerHTML = '<summary><span class="d"></span><h4></h4> <span class="city"></span>' +
                    (d.date === t ? ' <span class="badge" style="background:#fdf3e0;color:#8a5c00">TODAY</span>' : '') +
-                   '</summary><div class="body"><p></p></div>';
+                   '<span class="chev">›</span></summary><div class="body"><p></p></div>';
     el.querySelector(".d").textContent = label;
     el.querySelector("h4").textContent = d.title;
     el.querySelector(".city").textContent = d.city;
@@ -352,6 +388,10 @@ document.getElementById("today-btn").addEventListener("click", function(){
   var t = todayStr();
   var target = document.querySelector('.day[data-date="' + t + '"]') || document.querySelector(".day");
   if(target){ target.open = true; target.scrollIntoView({behavior:"smooth", block:"center"}); }
+});
+
+document.getElementById("qa-today").addEventListener("click", function(){
+  setTimeout(function(){ document.getElementById("today-btn").click(); }, 60);
 });
 
 /* ---------- Copy buttons ---------- */
